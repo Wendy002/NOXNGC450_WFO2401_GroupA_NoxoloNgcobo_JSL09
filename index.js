@@ -9,10 +9,6 @@ try {
     document.getElementById("author").textContent = `By: Dodi Achmad`
 }
 
-/**
- * Challenge: Update the code below and in the 
- * getCurrentLocation callback to use try...catch
- */
 
 try {
     const res = await fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
